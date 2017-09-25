@@ -15,6 +15,9 @@
 		F7AF0F171F79511A00CC7EE9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7AF0F151F79511A00CC7EE9 /* LaunchScreen.storyboard */; };
 		F7AF0F221F79511A00CC7EE9 /* Quartz2DTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F7AF0F211F79511A00CC7EE9 /* Quartz2DTests.m */; };
 		F7AF0F2D1F79511A00CC7EE9 /* Quartz2DUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F7AF0F2C1F79511A00CC7EE9 /* Quartz2DUITests.m */; };
+		F7AF0F411F79580800CC7EE9 /* Demo1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7AF0F3F1F79580800CC7EE9 /* Demo1ViewController.m */; };
+		F7AF0F421F79580800CC7EE9 /* Demo1ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F7AF0F401F79580800CC7EE9 /* Demo1ViewController.xib */; };
+		F7AF0F451F79588900CC7EE9 /* Demo1LineView.m in Sources */ = {isa = PBXBuildFile; fileRef = F7AF0F441F79588900CC7EE9 /* Demo1LineView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,11 @@
 		F7AF0F281F79511A00CC7EE9 /* Quartz2DUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Quartz2DUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7AF0F2C1F79511A00CC7EE9 /* Quartz2DUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Quartz2DUITests.m; sourceTree = "<group>"; };
 		F7AF0F2E1F79511A00CC7EE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F7AF0F3E1F79580800CC7EE9 /* Demo1ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Demo1ViewController.h; sourceTree = "<group>"; };
+		F7AF0F3F1F79580800CC7EE9 /* Demo1ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Demo1ViewController.m; sourceTree = "<group>"; };
+		F7AF0F401F79580800CC7EE9 /* Demo1ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Demo1ViewController.xib; sourceTree = "<group>"; };
+		F7AF0F431F79588900CC7EE9 /* Demo1LineView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Demo1LineView.h; sourceTree = "<group>"; };
+		F7AF0F441F79588900CC7EE9 /* Demo1LineView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Demo1LineView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +109,7 @@
 		F7AF0F061F79511A00CC7EE9 /* Quartz2D */ = {
 			isa = PBXGroup;
 			children = (
+				F7AF0F3A1F79574400CC7EE9 /* DemoCtrl */,
 				F7AF0F0A1F79511A00CC7EE9 /* AppDelegate.h */,
 				F7AF0F0B1F79511A00CC7EE9 /* AppDelegate.m */,
 				F7AF0F0D1F79511A00CC7EE9 /* ViewController.h */,
@@ -138,6 +147,42 @@
 				F7AF0F2E1F79511A00CC7EE9 /* Info.plist */,
 			);
 			path = Quartz2DUITests;
+			sourceTree = "<group>";
+		};
+		F7AF0F3A1F79574400CC7EE9 /* DemoCtrl */ = {
+			isa = PBXGroup;
+			children = (
+				F7AF0F3B1F79574400CC7EE9 /* Demo1 */,
+				F7AF0F3C1F79574400CC7EE9 /* Demo2 */,
+				F7AF0F3D1F79574400CC7EE9 /* Demo3 */,
+			);
+			path = DemoCtrl;
+			sourceTree = "<group>";
+		};
+		F7AF0F3B1F79574400CC7EE9 /* Demo1 */ = {
+			isa = PBXGroup;
+			children = (
+				F7AF0F3E1F79580800CC7EE9 /* Demo1ViewController.h */,
+				F7AF0F3F1F79580800CC7EE9 /* Demo1ViewController.m */,
+				F7AF0F401F79580800CC7EE9 /* Demo1ViewController.xib */,
+				F7AF0F431F79588900CC7EE9 /* Demo1LineView.h */,
+				F7AF0F441F79588900CC7EE9 /* Demo1LineView.m */,
+			);
+			path = Demo1;
+			sourceTree = "<group>";
+		};
+		F7AF0F3C1F79574400CC7EE9 /* Demo2 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Demo2;
+			sourceTree = "<group>";
+		};
+		F7AF0F3D1F79574400CC7EE9 /* Demo3 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Demo3;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -207,6 +252,7 @@
 				TargetAttributes = {
 					F7AF0F031F79511A00CC7EE9 = {
 						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 85X7688G9T;
 						ProvisioningStyle = Automatic;
 					};
 					F7AF0F1C1F79511A00CC7EE9 = {
@@ -247,6 +293,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F7AF0F171F79511A00CC7EE9 /* LaunchScreen.storyboard in Resources */,
+				F7AF0F421F79580800CC7EE9 /* Demo1ViewController.xib in Resources */,
 				F7AF0F141F79511A00CC7EE9 /* Assets.xcassets in Resources */,
 				F7AF0F121F79511A00CC7EE9 /* Main.storyboard in Resources */,
 			);
@@ -274,7 +321,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				F7AF0F0F1F79511A00CC7EE9 /* ViewController.m in Sources */,
+				F7AF0F411F79580800CC7EE9 /* Demo1ViewController.m in Sources */,
 				F7AF0F0C1F79511A00CC7EE9 /* AppDelegate.m in Sources */,
+				F7AF0F451F79588900CC7EE9 /* Demo1LineView.m in Sources */,
 				F7AF0F091F79511A00CC7EE9 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -424,6 +473,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 85X7688G9T;
 				INFOPLIST_FILE = Quartz2D/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cgm.Quartz2D;
@@ -435,6 +485,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 85X7688G9T;
 				INFOPLIST_FILE = Quartz2D/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cgm.Quartz2D;
