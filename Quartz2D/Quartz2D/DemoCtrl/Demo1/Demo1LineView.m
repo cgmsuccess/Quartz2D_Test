@@ -28,12 +28,28 @@
  */
 - (void)drawRect:(CGRect)rect {
     // Drawing code  viewDidLoad 先调用  --> viewDidAppear  将要显示的时候才会调用 drawRect
- 
-    [self drawLine];
+    CGContextRef ctx = UIGraphicsGetCurrentContext();
+    //路径
+    UIBezierPath *path = [UIBezierPath bezierPath];
+    //起点
+    CGPoint startp = CGPointMake(10, 125);
+    //终点
+    CGPoint endp = CGPointMake(250, 125);
+    //中间的点，
+    CGPoint controlp = CGPointMake(125, 10);
+    //添加路径
+    [path moveToPoint:startp];
+    [path addQuadCurveToPoint:endp controlPoint:controlp];
     
+    //添加上下文
+    CGContextAddPath(ctx, path.CGPath);
+    //渲染
+    CGContextStrokePath(ctx);
 }
 
-//上下文， （内存缓存区） ，内存操作速度快
+
+
+//上下文， （内存缓存区） ，内存操作速度快 ,交叉两条线
 -(void)crossDrawLine
 {
     //1 , 获取上下文 以后获取上下文直接用 UIGraphics
@@ -49,6 +65,9 @@
     [path moveToPoint:CGPointMake(240, 40)];
     
     [path addLineToPoint:CGPointMake(10, 10)];
+    // 设置绘图状态，线宽等
+    CGContextSetLineCap(ctx, kCGLineCapSquare);
+    CGContextSetLineWidth(ctx, 10);
     
     //4 ,把路径添加到上下文
     CGContextAddPath(ctx, path.CGPath);

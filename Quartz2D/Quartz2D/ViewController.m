@@ -9,6 +9,7 @@
 #import "ViewController.h"
 #import "Demo1ViewController.h"
 
+
 @interface ViewController ()<UITableViewDelegate,UITableViewDataSource>
 @property (weak, nonatomic) IBOutlet UITableView *tableview;
 
@@ -23,7 +24,7 @@
     self.automaticallyAdjustsScrollViewInsets = NO ;
     [self.tableview registerClass:[UITableViewCell class] forCellReuseIdentifier:@"cell"];
     
-    self.dataSource = @[@"基本图形绘制Demo1",];
+    self.dataSource = @[@"基本图形绘制线条Demo1",@"基本形状绘制圆形矩形三角形等Demo2",@"下载进度Demo3"];
 
 }
 

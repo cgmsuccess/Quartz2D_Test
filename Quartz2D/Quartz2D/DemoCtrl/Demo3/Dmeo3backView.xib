@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="Dmeo3backView">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="xaH-Zn-kaI">
+                    <rect key="frame" x="66" y="251" width="286" height="31"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="30" id="5rX-AZ-Ot8"/>
+                    </constraints>
+                    <color key="minimumTrackTintColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                    <color key="maximumTrackTintColor" red="1" green="0.58615943284259198" blue="0.52418612129389675" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <connections>
+                        <action selector="slider:" destination="iN0-l3-epB" eventType="valueChanged" id="avM-xZ-M4S"/>
+                    </connections>
+                </slider>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1ar-sh-eGI" customClass="demo3View">
+                    <rect key="frame" x="127.5" y="71" width="120" height="120"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="I1J-al-yVZ">
+                            <rect key="frame" x="38.5" y="49.5" width="42" height="21"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="21" id="UZr-9L-62q"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="120" id="1g6-bf-rq5"/>
+                        <constraint firstAttribute="height" constant="120" id="7Q2-BV-IOu"/>
+                        <constraint firstItem="I1J-al-yVZ" firstAttribute="centerX" secondItem="1ar-sh-eGI" secondAttribute="centerX" id="TXe-s8-8Hl"/>
+                        <constraint firstItem="I1J-al-yVZ" firstAttribute="centerY" secondItem="1ar-sh-eGI" secondAttribute="centerY" id="bQi-Wk-QBP"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Y8H-IG-csT" customClass="demo3solidView">
+                    <rect key="frame" x="127.5" y="326" width="120" height="120"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vfZ-Pa-nbP">
+                            <rect key="frame" x="38.5" y="49.5" width="42" height="21"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="21" id="dRe-YC-HjE"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="120" id="40a-fk-APk"/>
+                        <constraint firstItem="vfZ-Pa-nbP" firstAttribute="centerY" secondItem="Y8H-IG-csT" secondAttribute="centerY" id="GbY-QR-mOD"/>
+                        <constraint firstAttribute="width" constant="120" id="cFf-G1-CVd"/>
+                        <constraint firstItem="vfZ-Pa-nbP" firstAttribute="centerX" secondItem="Y8H-IG-csT" secondAttribute="centerX" id="t7O-Rx-t4F"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="xaH-Zn-kaI" firstAttribute="top" secondItem="1ar-sh-eGI" secondAttribute="bottom" constant="60" id="Ljs-Uv-p4m"/>
+                <constraint firstItem="xaH-Zn-kaI" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="68" id="gNG-3Q-1nz"/>
+                <constraint firstItem="Y8H-IG-csT" firstAttribute="top" secondItem="xaH-Zn-kaI" secondAttribute="bottom" constant="45" id="hRD-4e-ipK"/>
+                <constraint firstItem="1ar-sh-eGI" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="71" id="kV9-a6-Cpw"/>
+                <constraint firstItem="Y8H-IG-csT" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="nZt-wx-eox"/>
+                <constraint firstAttribute="trailing" secondItem="xaH-Zn-kaI" secondAttribute="trailing" constant="25" id="pLo-wL-CDZ"/>
+                <constraint firstItem="1ar-sh-eGI" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="vD6-v1-3KY"/>
+            </constraints>
+            <connections>
+                <outlet property="demo3solid" destination="Y8H-IG-csT" id="cGg-zw-ZaJ"/>
+                <outlet property="demo3view" destination="1ar-sh-eGI" id="GeR-UI-CKy"/>
+                <outlet property="propressLabel" destination="I1J-al-yVZ" id="BiA-oL-AHV"/>
+                <outlet property="propressLabelSolid" destination="vfZ-Pa-nbP" id="gEf-rB-G9d"/>
+                <outlet property="slider" destination="xaH-Zn-kaI" id="ds1-s3-2ak"/>
+            </connections>
+            <point key="canvasLocation" x="33.5" y="149.5"/>
+        </view>
+    </objects>
+</document>

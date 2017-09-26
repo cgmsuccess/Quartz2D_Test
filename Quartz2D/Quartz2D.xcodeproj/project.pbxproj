@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F759878F1F7A9B8A00ECDDF4 /* Demo2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F759878E1F7A9B8A00ECDDF4 /* Demo2ViewController.m */; };
+		F75987921F7A9C5A00ECDDF4 /* Demo2shapeView.m in Sources */ = {isa = PBXBuildFile; fileRef = F75987911F7A9C5A00ECDDF4 /* Demo2shapeView.m */; };
+		F75987951F7AAB8D00ECDDF4 /* Demo3ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F75987941F7AAB8D00ECDDF4 /* Demo3ViewController.m */; };
+		F75987981F7AACFD00ECDDF4 /* Dmeo3backView.m in Sources */ = {isa = PBXBuildFile; fileRef = F75987971F7AACFD00ECDDF4 /* Dmeo3backView.m */; };
+		F759879A1F7AAD0900ECDDF4 /* Dmeo3backView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F75987991F7AAD0900ECDDF4 /* Dmeo3backView.xib */; };
+		F759879D1F7AAFDB00ECDDF4 /* demo3View.m in Sources */ = {isa = PBXBuildFile; fileRef = F759879C1F7AAFDB00ECDDF4 /* demo3View.m */; };
+		F75987A01F7AB33B00ECDDF4 /* demo3solidView.m in Sources */ = {isa = PBXBuildFile; fileRef = F759879F1F7AB33B00ECDDF4 /* demo3solidView.m */; };
 		F7AF0F091F79511A00CC7EE9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F7AF0F081F79511A00CC7EE9 /* main.m */; };
 		F7AF0F0C1F79511A00CC7EE9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F7AF0F0B1F79511A00CC7EE9 /* AppDelegate.m */; };
 		F7AF0F0F1F79511A00CC7EE9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7AF0F0E1F79511A00CC7EE9 /* ViewController.m */; };
@@ -38,6 +45,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F759878D1F7A9B8A00ECDDF4 /* Demo2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Demo2ViewController.h; sourceTree = "<group>"; };
+		F759878E1F7A9B8A00ECDDF4 /* Demo2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Demo2ViewController.m; sourceTree = "<group>"; };
+		F75987901F7A9C5A00ECDDF4 /* Demo2shapeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Demo2shapeView.h; sourceTree = "<group>"; };
+		F75987911F7A9C5A00ECDDF4 /* Demo2shapeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Demo2shapeView.m; sourceTree = "<group>"; };
+		F75987931F7AAB8D00ECDDF4 /* Demo3ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Demo3ViewController.h; sourceTree = "<group>"; };
+		F75987941F7AAB8D00ECDDF4 /* Demo3ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Demo3ViewController.m; sourceTree = "<group>"; };
+		F75987961F7AACFD00ECDDF4 /* Dmeo3backView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dmeo3backView.h; sourceTree = "<group>"; };
+		F75987971F7AACFD00ECDDF4 /* Dmeo3backView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Dmeo3backView.m; sourceTree = "<group>"; };
+		F75987991F7AAD0900ECDDF4 /* Dmeo3backView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Dmeo3backView.xib; sourceTree = "<group>"; };
+		F759879B1F7AAFDB00ECDDF4 /* demo3View.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = demo3View.h; sourceTree = "<group>"; };
+		F759879C1F7AAFDB00ECDDF4 /* demo3View.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = demo3View.m; sourceTree = "<group>"; };
+		F759879E1F7AB33B00ECDDF4 /* demo3solidView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = demo3solidView.h; sourceTree = "<group>"; };
+		F759879F1F7AB33B00ECDDF4 /* demo3solidView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = demo3solidView.m; sourceTree = "<group>"; };
 		F7AF0F041F79511A00CC7EE9 /* Quartz2D.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Quartz2D.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7AF0F081F79511A00CC7EE9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F7AF0F0A1F79511A00CC7EE9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -174,6 +194,10 @@
 		F7AF0F3C1F79574400CC7EE9 /* Demo2 */ = {
 			isa = PBXGroup;
 			children = (
+				F759878D1F7A9B8A00ECDDF4 /* Demo2ViewController.h */,
+				F759878E1F7A9B8A00ECDDF4 /* Demo2ViewController.m */,
+				F75987901F7A9C5A00ECDDF4 /* Demo2shapeView.h */,
+				F75987911F7A9C5A00ECDDF4 /* Demo2shapeView.m */,
 			);
 			path = Demo2;
 			sourceTree = "<group>";
@@ -181,6 +205,15 @@
 		F7AF0F3D1F79574400CC7EE9 /* Demo3 */ = {
 			isa = PBXGroup;
 			children = (
+				F75987931F7AAB8D00ECDDF4 /* Demo3ViewController.h */,
+				F75987941F7AAB8D00ECDDF4 /* Demo3ViewController.m */,
+				F75987961F7AACFD00ECDDF4 /* Dmeo3backView.h */,
+				F75987971F7AACFD00ECDDF4 /* Dmeo3backView.m */,
+				F75987991F7AAD0900ECDDF4 /* Dmeo3backView.xib */,
+				F759879B1F7AAFDB00ECDDF4 /* demo3View.h */,
+				F759879C1F7AAFDB00ECDDF4 /* demo3View.m */,
+				F759879E1F7AB33B00ECDDF4 /* demo3solidView.h */,
+				F759879F1F7AB33B00ECDDF4 /* demo3solidView.m */,
 			);
 			path = Demo3;
 			sourceTree = "<group>";
@@ -296,6 +329,7 @@
 				F7AF0F421F79580800CC7EE9 /* Demo1ViewController.xib in Resources */,
 				F7AF0F141F79511A00CC7EE9 /* Assets.xcassets in Resources */,
 				F7AF0F121F79511A00CC7EE9 /* Main.storyboard in Resources */,
+				F759879A1F7AAD0900ECDDF4 /* Dmeo3backView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -320,11 +354,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F75987921F7A9C5A00ECDDF4 /* Demo2shapeView.m in Sources */,
+				F75987A01F7AB33B00ECDDF4 /* demo3solidView.m in Sources */,
+				F759878F1F7A9B8A00ECDDF4 /* Demo2ViewController.m in Sources */,
 				F7AF0F0F1F79511A00CC7EE9 /* ViewController.m in Sources */,
+				F759879D1F7AAFDB00ECDDF4 /* demo3View.m in Sources */,
 				F7AF0F411F79580800CC7EE9 /* Demo1ViewController.m in Sources */,
 				F7AF0F0C1F79511A00CC7EE9 /* AppDelegate.m in Sources */,
 				F7AF0F451F79588900CC7EE9 /* Demo1LineView.m in Sources */,
 				F7AF0F091F79511A00CC7EE9 /* main.m in Sources */,
+				F75987951F7AAB8D00ECDDF4 /* Demo3ViewController.m in Sources */,
+				F75987981F7AACFD00ECDDF4 /* Dmeo3backView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -558,6 +598,7 @@
 				F7AF0F331F79511A00CC7EE9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F7AF0F341F79511A00CC7EE9 /* Build configuration list for PBXNativeTarget "Quartz2DTests" */ = {
 			isa = XCConfigurationList;
@@ -566,6 +607,7 @@
 				F7AF0F361F79511A00CC7EE9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F7AF0F371F79511A00CC7EE9 /* Build configuration list for PBXNativeTarget "Quartz2DUITests" */ = {
 			isa = XCConfigurationList;
@@ -574,6 +616,7 @@
 				F7AF0F391F79511A00CC7EE9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
