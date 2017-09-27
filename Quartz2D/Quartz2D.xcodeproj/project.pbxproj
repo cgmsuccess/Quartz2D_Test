@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F75803D61F7BEF0000187C6F /* Demo4Pie.m in Sources */ = {isa = PBXBuildFile; fileRef = F75803D31F7BEF0000187C6F /* Demo4Pie.m */; };
+		F75803D71F7BEF0000187C6F /* Demo4ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F75803D51F7BEF0000187C6F /* Demo4ViewController.m */; };
+		F75803DC1F7BEF4C00187C6F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F75803DB1F7BEF4C00187C6F /* ViewController.m */; };
+		F75803E31F7BEFDB00187C6F /* NSString+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = F75803DE1F7BEFDB00187C6F /* NSString+Helper.m */; };
+		F75803E41F7BEFDB00187C6F /* UIButton+CGMCilckBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = F75803E01F7BEFDB00187C6F /* UIButton+CGMCilckBtn.m */; };
+		F75803E51F7BEFDB00187C6F /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = F75803E21F7BEFDB00187C6F /* UIView+Frame.m */; };
+		F75803E91F7BFDF300187C6F /* Demo5ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F75803E81F7BFDF300187C6F /* Demo5ViewController.m */; };
+		F75803EC1F7BFE1400187C6F /* Demo5columnView.m in Sources */ = {isa = PBXBuildFile; fileRef = F75803EB1F7BFE1400187C6F /* Demo5columnView.m */; };
+		F75803F01F7C041B00187C6F /* Demo6ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F75803EF1F7C041B00187C6F /* Demo6ViewController.m */; };
+		F75803F31F7C043100187C6F /* Demo6Uikit.m in Sources */ = {isa = PBXBuildFile; fileRef = F75803F21F7C043100187C6F /* Demo6Uikit.m */; };
 		F759878F1F7A9B8A00ECDDF4 /* Demo2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F759878E1F7A9B8A00ECDDF4 /* Demo2ViewController.m */; };
 		F75987921F7A9C5A00ECDDF4 /* Demo2shapeView.m in Sources */ = {isa = PBXBuildFile; fileRef = F75987911F7A9C5A00ECDDF4 /* Demo2shapeView.m */; };
 		F75987951F7AAB8D00ECDDF4 /* Demo3ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F75987941F7AAB8D00ECDDF4 /* Demo3ViewController.m */; };
@@ -16,7 +26,6 @@
 		F75987A01F7AB33B00ECDDF4 /* demo3solidView.m in Sources */ = {isa = PBXBuildFile; fileRef = F759879F1F7AB33B00ECDDF4 /* demo3solidView.m */; };
 		F7AF0F091F79511A00CC7EE9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F7AF0F081F79511A00CC7EE9 /* main.m */; };
 		F7AF0F0C1F79511A00CC7EE9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F7AF0F0B1F79511A00CC7EE9 /* AppDelegate.m */; };
-		F7AF0F0F1F79511A00CC7EE9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7AF0F0E1F79511A00CC7EE9 /* ViewController.m */; };
 		F7AF0F121F79511A00CC7EE9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7AF0F101F79511A00CC7EE9 /* Main.storyboard */; };
 		F7AF0F141F79511A00CC7EE9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7AF0F131F79511A00CC7EE9 /* Assets.xcassets */; };
 		F7AF0F171F79511A00CC7EE9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7AF0F151F79511A00CC7EE9 /* LaunchScreen.storyboard */; };
@@ -45,6 +54,27 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F75803D21F7BEF0000187C6F /* Demo4Pie.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Demo4Pie.h; sourceTree = "<group>"; };
+		F75803D31F7BEF0000187C6F /* Demo4Pie.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Demo4Pie.m; sourceTree = "<group>"; };
+		F75803D41F7BEF0000187C6F /* Demo4ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Demo4ViewController.h; sourceTree = "<group>"; };
+		F75803D51F7BEF0000187C6F /* Demo4ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Demo4ViewController.m; sourceTree = "<group>"; };
+		F75803D91F7BEF4C00187C6F /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		F75803DA1F7BEF4C00187C6F /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F75803DB1F7BEF4C00187C6F /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F75803DD1F7BEFDB00187C6F /* NSString+Helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Helper.h"; sourceTree = "<group>"; };
+		F75803DE1F7BEFDB00187C6F /* NSString+Helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Helper.m"; sourceTree = "<group>"; };
+		F75803DF1F7BEFDB00187C6F /* UIButton+CGMCilckBtn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+CGMCilckBtn.h"; sourceTree = "<group>"; };
+		F75803E01F7BEFDB00187C6F /* UIButton+CGMCilckBtn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+CGMCilckBtn.m"; sourceTree = "<group>"; };
+		F75803E11F7BEFDB00187C6F /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
+		F75803E21F7BEFDB00187C6F /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
+		F75803E71F7BFDF300187C6F /* Demo5ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Demo5ViewController.h; sourceTree = "<group>"; };
+		F75803E81F7BFDF300187C6F /* Demo5ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Demo5ViewController.m; sourceTree = "<group>"; };
+		F75803EA1F7BFE1400187C6F /* Demo5columnView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Demo5columnView.h; sourceTree = "<group>"; };
+		F75803EB1F7BFE1400187C6F /* Demo5columnView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Demo5columnView.m; sourceTree = "<group>"; };
+		F75803EE1F7C041B00187C6F /* Demo6ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Demo6ViewController.h; sourceTree = "<group>"; };
+		F75803EF1F7C041B00187C6F /* Demo6ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Demo6ViewController.m; sourceTree = "<group>"; };
+		F75803F11F7C043100187C6F /* Demo6Uikit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Demo6Uikit.h; sourceTree = "<group>"; };
+		F75803F21F7C043100187C6F /* Demo6Uikit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Demo6Uikit.m; sourceTree = "<group>"; };
 		F759878D1F7A9B8A00ECDDF4 /* Demo2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Demo2ViewController.h; sourceTree = "<group>"; };
 		F759878E1F7A9B8A00ECDDF4 /* Demo2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Demo2ViewController.m; sourceTree = "<group>"; };
 		F75987901F7A9C5A00ECDDF4 /* Demo2shapeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Demo2shapeView.h; sourceTree = "<group>"; };
@@ -62,8 +92,6 @@
 		F7AF0F081F79511A00CC7EE9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F7AF0F0A1F79511A00CC7EE9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F7AF0F0B1F79511A00CC7EE9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		F7AF0F0D1F79511A00CC7EE9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		F7AF0F0E1F79511A00CC7EE9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		F7AF0F111F79511A00CC7EE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F7AF0F131F79511A00CC7EE9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F7AF0F161F79511A00CC7EE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -106,6 +134,55 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F75803D11F7BEF0000187C6F /* Demo4 */ = {
+			isa = PBXGroup;
+			children = (
+				F75803D21F7BEF0000187C6F /* Demo4Pie.h */,
+				F75803D31F7BEF0000187C6F /* Demo4Pie.m */,
+				F75803D41F7BEF0000187C6F /* Demo4ViewController.h */,
+				F75803D51F7BEF0000187C6F /* Demo4ViewController.m */,
+			);
+			path = Demo4;
+			sourceTree = "<group>";
+		};
+		F75803D81F7BEF4C00187C6F /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				F75803DD1F7BEFDB00187C6F /* NSString+Helper.h */,
+				F75803DE1F7BEFDB00187C6F /* NSString+Helper.m */,
+				F75803DF1F7BEFDB00187C6F /* UIButton+CGMCilckBtn.h */,
+				F75803E01F7BEFDB00187C6F /* UIButton+CGMCilckBtn.m */,
+				F75803E11F7BEFDB00187C6F /* UIView+Frame.h */,
+				F75803E21F7BEFDB00187C6F /* UIView+Frame.m */,
+				F75803D91F7BEF4C00187C6F /* PrefixHeader.pch */,
+				F75803DA1F7BEF4C00187C6F /* ViewController.h */,
+				F75803DB1F7BEF4C00187C6F /* ViewController.m */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		F75803E61F7BFDDC00187C6F /* Demo5 */ = {
+			isa = PBXGroup;
+			children = (
+				F75803E71F7BFDF300187C6F /* Demo5ViewController.h */,
+				F75803E81F7BFDF300187C6F /* Demo5ViewController.m */,
+				F75803EA1F7BFE1400187C6F /* Demo5columnView.h */,
+				F75803EB1F7BFE1400187C6F /* Demo5columnView.m */,
+			);
+			path = Demo5;
+			sourceTree = "<group>";
+		};
+		F75803ED1F7C040300187C6F /* Demo6 */ = {
+			isa = PBXGroup;
+			children = (
+				F75803EE1F7C041B00187C6F /* Demo6ViewController.h */,
+				F75803EF1F7C041B00187C6F /* Demo6ViewController.m */,
+				F75803F11F7C043100187C6F /* Demo6Uikit.h */,
+				F75803F21F7C043100187C6F /* Demo6Uikit.m */,
+			);
+			path = Demo6;
+			sourceTree = "<group>";
+		};
 		F7AF0EFB1F79511A00CC7EE9 = {
 			isa = PBXGroup;
 			children = (
@@ -129,11 +206,10 @@
 		F7AF0F061F79511A00CC7EE9 /* Quartz2D */ = {
 			isa = PBXGroup;
 			children = (
+				F75803D81F7BEF4C00187C6F /* Other */,
 				F7AF0F3A1F79574400CC7EE9 /* DemoCtrl */,
 				F7AF0F0A1F79511A00CC7EE9 /* AppDelegate.h */,
 				F7AF0F0B1F79511A00CC7EE9 /* AppDelegate.m */,
-				F7AF0F0D1F79511A00CC7EE9 /* ViewController.h */,
-				F7AF0F0E1F79511A00CC7EE9 /* ViewController.m */,
 				F7AF0F101F79511A00CC7EE9 /* Main.storyboard */,
 				F7AF0F131F79511A00CC7EE9 /* Assets.xcassets */,
 				F7AF0F151F79511A00CC7EE9 /* LaunchScreen.storyboard */,
@@ -175,6 +251,9 @@
 				F7AF0F3B1F79574400CC7EE9 /* Demo1 */,
 				F7AF0F3C1F79574400CC7EE9 /* Demo2 */,
 				F7AF0F3D1F79574400CC7EE9 /* Demo3 */,
+				F75803D11F7BEF0000187C6F /* Demo4 */,
+				F75803E61F7BFDDC00187C6F /* Demo5 */,
+				F75803ED1F7C040300187C6F /* Demo6 */,
 			);
 			path = DemoCtrl;
 			sourceTree = "<group>";
@@ -357,14 +436,23 @@
 				F75987921F7A9C5A00ECDDF4 /* Demo2shapeView.m in Sources */,
 				F75987A01F7AB33B00ECDDF4 /* demo3solidView.m in Sources */,
 				F759878F1F7A9B8A00ECDDF4 /* Demo2ViewController.m in Sources */,
-				F7AF0F0F1F79511A00CC7EE9 /* ViewController.m in Sources */,
 				F759879D1F7AAFDB00ECDDF4 /* demo3View.m in Sources */,
 				F7AF0F411F79580800CC7EE9 /* Demo1ViewController.m in Sources */,
 				F7AF0F0C1F79511A00CC7EE9 /* AppDelegate.m in Sources */,
+				F75803DC1F7BEF4C00187C6F /* ViewController.m in Sources */,
 				F7AF0F451F79588900CC7EE9 /* Demo1LineView.m in Sources */,
+				F75803E51F7BEFDB00187C6F /* UIView+Frame.m in Sources */,
+				F75803E91F7BFDF300187C6F /* Demo5ViewController.m in Sources */,
+				F75803D61F7BEF0000187C6F /* Demo4Pie.m in Sources */,
 				F7AF0F091F79511A00CC7EE9 /* main.m in Sources */,
+				F75803F31F7C043100187C6F /* Demo6Uikit.m in Sources */,
+				F75803E41F7BEFDB00187C6F /* UIButton+CGMCilckBtn.m in Sources */,
+				F75803EC1F7BFE1400187C6F /* Demo5columnView.m in Sources */,
+				F75803D71F7BEF0000187C6F /* Demo4ViewController.m in Sources */,
 				F75987951F7AAB8D00ECDDF4 /* Demo3ViewController.m in Sources */,
 				F75987981F7AACFD00ECDDF4 /* Dmeo3backView.m in Sources */,
+				F75803F01F7C041B00187C6F /* Demo6ViewController.m in Sources */,
+				F75803E31F7BEFDB00187C6F /* NSString+Helper.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -514,6 +602,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 85X7688G9T;
+				GCC_PREFIX_HEADER = $SRCROOT/Quartz2D/Other/PrefixHeader.pch;
 				INFOPLIST_FILE = Quartz2D/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cgm.Quartz2D;
@@ -526,6 +615,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 85X7688G9T;
+				GCC_PREFIX_HEADER = $SRCROOT/Quartz2D/Other/PrefixHeader.pch;
 				INFOPLIST_FILE = Quartz2D/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cgm.Quartz2D;

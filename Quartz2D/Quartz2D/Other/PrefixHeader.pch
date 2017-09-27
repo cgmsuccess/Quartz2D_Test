@@ -1,0 +1,42 @@
+//
+//  PrefixHeader.pch
+//  Quartz2D
+//
+//  Created by 陈桂民 on 2017/9/27.
+//  Copyright © 2017年 cgm. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+
+#import "UIView+Frame.h"
+#import "UIButton+CGMCilckBtn.h"
+#import "NSString+Helper.h"
+
+
+//颜色
+#define randomColor(r,g,b,a) [UIColor colorWithRed:r/255.0 green:g/255.0 blue:b/255.0 alpha:a]
+
+#define backColor [UIColor colorWithRed:66/255.0 green:124/255.0 blue:145/255.0 alpha:1]
+
+#define Color(r,g,b,a) [UIColor colorWithRed:r/255.0 green:g/255.0 blue:b/255.0 alpha:a]
+
+#define WS(weakSelf)  __weak __typeof(&*self)weakSelf = self
+
+#define MyrandomColor [UIColor colorWithRed:arc4random() % 256 / 255.0 green:arc4random() % 256 / 255.0 blue:arc4random() % 256 / 255.0 alpha:1.0f]
+
+
+// 是否大于iOS 7系统
+#define iOS7 ([[UIDevice currentDevice].systemVersion doubleValue] >= 7.0)
+#define IOS8 ([[UIDevice currentDevice].systemVersion doubleValue] >= 8.0 && [[UIDevice currentDevice].systemVersion doubleValue] < 9.0)
+#define IOS8_10 ([[[UIDevice currentDevice] systemVersion] floatValue] >= 8.0 && [[UIDevice currentDevice].systemVersion doubleValue] < 10.0)
+#define IOS10 ([[[UIDevice currentDevice] systemVersion] floatValue] >= 10.0)
+
+#ifdef DEBUG
+#define XCLog(format, ...) printf("\n[%s] %s [第%d行] %s\n", __TIME__, __FUNCTION__, __LINE__, [[NSString stringWithFormat:format, ## __VA_ARGS__] UTF8String]);
+#else
+#define XCMLog(format, ...)
+#endif
+
+#endif /* PrefixHeader_pch */

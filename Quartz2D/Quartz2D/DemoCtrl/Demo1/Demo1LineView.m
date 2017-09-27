@@ -28,6 +28,17 @@
  */
 - (void)drawRect:(CGRect)rect {
     // Drawing code  viewDidLoad 先调用  --> viewDidAppear  将要显示的时候才会调用 drawRect
+
+    [self drawQuxian];
+    
+//    [self crossDrawLine];
+    
+    [self drawLine];
+    
+}
+
+-(void)drawQuxian
+{
     CGContextRef ctx = UIGraphicsGetCurrentContext();
     //路径
     UIBezierPath *path = [UIBezierPath bezierPath];
@@ -41,12 +52,12 @@
     [path moveToPoint:startp];
     [path addQuadCurveToPoint:endp controlPoint:controlp];
     
+//    [path closePath] ;// 闭合
     //添加上下文
     CGContextAddPath(ctx, path.CGPath);
     //渲染
     CGContextStrokePath(ctx);
 }
-
 
 
 //上下文， （内存缓存区） ，内存操作速度快 ,交叉两条线
@@ -68,6 +79,7 @@
     // 设置绘图状态，线宽等
     CGContextSetLineCap(ctx, kCGLineCapSquare);
     CGContextSetLineWidth(ctx, 10);
+    [[UIColor redColor] set];
     
     //4 ,把路径添加到上下文
     CGContextAddPath(ctx, path.CGPath);

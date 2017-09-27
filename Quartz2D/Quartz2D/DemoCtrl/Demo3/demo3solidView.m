@@ -35,7 +35,6 @@
  
     //描边色
     [[UIColor whiteColor] setStroke];
-    
     if (_progress == 1) {
         [[UIColor redColor] setStroke];
     }
@@ -46,7 +45,7 @@
     
     CGContextAddPath(ctx, path.CGPath); //添加路径
 
-    
+    //描边 并且填充
     CGContextDrawPath(ctx, kCGPathFillStroke);
 }
 
