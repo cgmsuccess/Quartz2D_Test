@@ -51,12 +51,10 @@
     
     CGRect titleRect = CGRectMake(0, 0, 100, 44);
     NSDictionary *attributs = @{NSBackgroundColorAttributeName:[UIColor redColor]};
-    
     // 填充色
     [MyrandomColor set];
     //填充
     UIRectFill(titleRect);
-    
     [title drawInRect:titleRect withAttributes:attributs];
 
 }

@@ -82,7 +82,7 @@
 -(void)drawText
 {
     UIImage *oldImag = [UIImage imageNamed:@"4.png"];
-    // 开启上下文 size 新图片大小 是否透明 YES 不透明
+    // 开启上下文 size 新图片大小 是否透明 YES 不透明 ， NO 透明
     UIGraphicsBeginImageContextWithOptions(oldImag.size, NO , 0.0);
     //把图片绘制到上下文当中
     [oldImag drawAtPoint:CGPointZero];

@@ -29,6 +29,8 @@
      
        drawAtPoint  与之类似,当需要把字符串在某一点上绘制时,可用以下方法
      
+     // 只有文字 和 图片 能用 drawAtPoint  drawInRect
+
      
      */
     
@@ -38,7 +40,7 @@
     self.automaticallyAdjustsScrollViewInsets = NO ;
     [self.tableview registerClass:[UITableViewCell class] forCellReuseIdentifier:@"cell"];
     
-    self.dataSource = @[@"基本图形绘制线条Demo1",@"基本形状绘制圆形矩形三角形等Demo2",@"下载进度Demo3",@"饼图的基本绘制Demo4",@"柱状图Demo5",@"uikit 基本绘图，如绘制文字，矩形等Demo6",@"给图片添加文字或者图片水印,生成新的图片Demo7",@"剪切圆Demo8"];
+    self.dataSource = @[@"基本图形绘制线条Demo1",@"基本形状绘制圆形矩形三角形等Demo2",@"下载进度Demo3",@"饼图的基本绘制Demo4",@"柱状图Demo5",@"uikit 基本绘图，如绘制文字，矩形等Demo6",@"给图片添加文字或者图片水印,生成新的图片Demo7",@"剪切圆Demo8",@"截屏Demo9"];
 
 }
 

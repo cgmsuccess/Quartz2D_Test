@@ -51,6 +51,7 @@
     // Drawing code
     //1.上下文
     CGContextRef rtx = UIGraphicsGetCurrentContext();
+    
     // 中心点
     CGPoint center = CGPointMake(self.width/2, self.height/2);
     CGFloat radius = self.width/2; //半径
