@@ -12,14 +12,18 @@
 
 
 - (void)drawRect:(CGRect)rect {
-//    
+//
+    [self drawFillTriangle]; //填充三角形
+
+    
     [self deawArc]; //弧形
     [self drawCircle]; //圆形
     [self drawRectangular];//矩形
-////    [self drawFillTriangle]; //填充三角形
     [self drawTriangle]; //三角形
     
     [self arcAquarterArc]; //四分之1 圆弧
+    
+
     
 }
 //四分之1 圆弧
@@ -98,6 +102,7 @@
     CGContextSetLineWidth(ctx, 15);
     //即填充又描边
     CGContextDrawPath(ctx, kCGPathFillStroke);
+    
 }
 
 //三角形

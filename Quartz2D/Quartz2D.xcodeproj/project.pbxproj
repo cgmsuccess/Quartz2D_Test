@@ -24,6 +24,8 @@
 		F759879A1F7AAD0900ECDDF4 /* Dmeo3backView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F75987991F7AAD0900ECDDF4 /* Dmeo3backView.xib */; };
 		F759879D1F7AAFDB00ECDDF4 /* demo3View.m in Sources */ = {isa = PBXBuildFile; fileRef = F759879C1F7AAFDB00ECDDF4 /* demo3View.m */; };
 		F75987A01F7AB33B00ECDDF4 /* demo3solidView.m in Sources */ = {isa = PBXBuildFile; fileRef = F759879F1F7AB33B00ECDDF4 /* demo3solidView.m */; };
+		F785B3591F8BB5A000CD3566 /* Demo7ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F785B3581F8BB5A000CD3566 /* Demo7ViewController.m */; };
+		F785B35D1F8BC76B00CD3566 /* Demo8ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F785B35C1F8BC76B00CD3566 /* Demo8ViewController.m */; };
 		F7AF0F091F79511A00CC7EE9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F7AF0F081F79511A00CC7EE9 /* main.m */; };
 		F7AF0F0C1F79511A00CC7EE9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F7AF0F0B1F79511A00CC7EE9 /* AppDelegate.m */; };
 		F7AF0F121F79511A00CC7EE9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7AF0F101F79511A00CC7EE9 /* Main.storyboard */; };
@@ -88,6 +90,10 @@
 		F759879C1F7AAFDB00ECDDF4 /* demo3View.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = demo3View.m; sourceTree = "<group>"; };
 		F759879E1F7AB33B00ECDDF4 /* demo3solidView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = demo3solidView.h; sourceTree = "<group>"; };
 		F759879F1F7AB33B00ECDDF4 /* demo3solidView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = demo3solidView.m; sourceTree = "<group>"; };
+		F785B3571F8BB5A000CD3566 /* Demo7ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Demo7ViewController.h; sourceTree = "<group>"; };
+		F785B3581F8BB5A000CD3566 /* Demo7ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Demo7ViewController.m; sourceTree = "<group>"; };
+		F785B35B1F8BC76B00CD3566 /* Demo8ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Demo8ViewController.h; sourceTree = "<group>"; };
+		F785B35C1F8BC76B00CD3566 /* Demo8ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Demo8ViewController.m; sourceTree = "<group>"; };
 		F7AF0F041F79511A00CC7EE9 /* Quartz2D.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Quartz2D.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7AF0F081F79511A00CC7EE9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F7AF0F0A1F79511A00CC7EE9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -183,6 +189,24 @@
 			path = Demo6;
 			sourceTree = "<group>";
 		};
+		F785B3561F8BB56200CD3566 /* Demo7 */ = {
+			isa = PBXGroup;
+			children = (
+				F785B3571F8BB5A000CD3566 /* Demo7ViewController.h */,
+				F785B3581F8BB5A000CD3566 /* Demo7ViewController.m */,
+			);
+			path = Demo7;
+			sourceTree = "<group>";
+		};
+		F785B35A1F8BC76100CD3566 /* Demo8 */ = {
+			isa = PBXGroup;
+			children = (
+				F785B35B1F8BC76B00CD3566 /* Demo8ViewController.h */,
+				F785B35C1F8BC76B00CD3566 /* Demo8ViewController.m */,
+			);
+			path = Demo8;
+			sourceTree = "<group>";
+		};
 		F7AF0EFB1F79511A00CC7EE9 = {
 			isa = PBXGroup;
 			children = (
@@ -254,6 +278,8 @@
 				F75803D11F7BEF0000187C6F /* Demo4 */,
 				F75803E61F7BFDDC00187C6F /* Demo5 */,
 				F75803ED1F7C040300187C6F /* Demo6 */,
+				F785B3561F8BB56200CD3566 /* Demo7 */,
+				F785B35A1F8BC76100CD3566 /* Demo8 */,
 			);
 			path = DemoCtrl;
 			sourceTree = "<group>";
@@ -439,7 +465,9 @@
 				F759879D1F7AAFDB00ECDDF4 /* demo3View.m in Sources */,
 				F7AF0F411F79580800CC7EE9 /* Demo1ViewController.m in Sources */,
 				F7AF0F0C1F79511A00CC7EE9 /* AppDelegate.m in Sources */,
+				F785B3591F8BB5A000CD3566 /* Demo7ViewController.m in Sources */,
 				F75803DC1F7BEF4C00187C6F /* ViewController.m in Sources */,
+				F785B35D1F8BC76B00CD3566 /* Demo8ViewController.m in Sources */,
 				F7AF0F451F79588900CC7EE9 /* Demo1LineView.m in Sources */,
 				F75803E51F7BEFDB00187C6F /* UIView+Frame.m in Sources */,
 				F75803E91F7BFDF300187C6F /* Demo5ViewController.m in Sources */,

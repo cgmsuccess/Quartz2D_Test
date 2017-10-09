@@ -31,6 +31,7 @@
         angle = number.integerValue / 100.0 *M_PI *2 ;
         end = start + angle ;
         UIBezierPath *path = [UIBezierPath bezierPathWithArcCenter:center radius:radius startAngle:start endAngle:end clockwise:YES];
+       
         [path addLineToPoint:center]; //因为要封闭填充，所以给他一个点，系统去封闭他
 
     //3.添加到上下文

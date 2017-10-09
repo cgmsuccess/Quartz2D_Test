@@ -31,6 +31,7 @@
 //    UIRectClip(CGRectMake(0, 0, 100, 100)); //设置裁决区域，超过这里区域都被裁剪
 
     [image drawAsPatternInRect:rect];
+    
 }
 //普通的画图片
 -(void)drawImage
