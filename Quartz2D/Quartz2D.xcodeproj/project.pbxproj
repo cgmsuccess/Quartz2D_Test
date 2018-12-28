@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		230E22E521D606D4002E0241 /* remodView.m in Sources */ = {isa = PBXBuildFile; fileRef = 230E22E421D606D4002E0241 /* remodView.m */; };
 		F75803D61F7BEF0000187C6F /* Demo4Pie.m in Sources */ = {isa = PBXBuildFile; fileRef = F75803D31F7BEF0000187C6F /* Demo4Pie.m */; };
 		F75803D71F7BEF0000187C6F /* Demo4ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F75803D51F7BEF0000187C6F /* Demo4ViewController.m */; };
 		F75803DC1F7BEF4C00187C6F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F75803DB1F7BEF4C00187C6F /* ViewController.m */; };
@@ -58,6 +59,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		230E22E321D606D4002E0241 /* remodView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = remodView.h; sourceTree = "<group>"; };
+		230E22E421D606D4002E0241 /* remodView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = remodView.m; sourceTree = "<group>"; };
 		F75803D21F7BEF0000187C6F /* Demo4Pie.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Demo4Pie.h; sourceTree = "<group>"; };
 		F75803D31F7BEF0000187C6F /* Demo4Pie.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Demo4Pie.m; sourceTree = "<group>"; };
 		F75803D41F7BEF0000187C6F /* Demo4ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Demo4ViewController.h; sourceTree = "<group>"; };
@@ -254,6 +257,8 @@
 				F7AF0F151F79511A00CC7EE9 /* LaunchScreen.storyboard */,
 				F7AF0F181F79511A00CC7EE9 /* Info.plist */,
 				F7AF0F071F79511A00CC7EE9 /* Supporting Files */,
+				230E22E321D606D4002E0241 /* remodView.h */,
+				230E22E421D606D4002E0241 /* remodView.m */,
 			);
 			path = Quartz2D;
 			sourceTree = "<group>";
@@ -491,6 +496,7 @@
 				F785B3621F8BD2C400CD3566 /* Demo9ViewController.m in Sources */,
 				F75803D61F7BEF0000187C6F /* Demo4Pie.m in Sources */,
 				F7AF0F091F79511A00CC7EE9 /* main.m in Sources */,
+				230E22E521D606D4002E0241 /* remodView.m in Sources */,
 				F75803F31F7C043100187C6F /* Demo6Uikit.m in Sources */,
 				F75803E41F7BEFDB00187C6F /* UIButton+CGMCilckBtn.m in Sources */,
 				F75803EC1F7BFE1400187C6F /* Demo5columnView.m in Sources */,
