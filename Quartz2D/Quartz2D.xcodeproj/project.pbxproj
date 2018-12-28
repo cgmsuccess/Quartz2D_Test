@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+<<<<<<< .merge_file_fBvCct
 		230E22E521D606D4002E0241 /* remodView.m in Sources */ = {isa = PBXBuildFile; fileRef = 230E22E421D606D4002E0241 /* remodView.m */; };
 		F75803D61F7BEF0000187C6F /* Demo4Pie.m in Sources */ = {isa = PBXBuildFile; fileRef = F75803D31F7BEF0000187C6F /* Demo4Pie.m */; };
 		F75803D71F7BEF0000187C6F /* Demo4ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F75803D51F7BEF0000187C6F /* Demo4ViewController.m */; };
@@ -18,6 +19,9 @@
 		F75803EC1F7BFE1400187C6F /* Demo5columnView.m in Sources */ = {isa = PBXBuildFile; fileRef = F75803EB1F7BFE1400187C6F /* Demo5columnView.m */; };
 		F75803F01F7C041B00187C6F /* Demo6ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F75803EF1F7C041B00187C6F /* Demo6ViewController.m */; };
 		F75803F31F7C043100187C6F /* Demo6Uikit.m in Sources */ = {isa = PBXBuildFile; fileRef = F75803F21F7C043100187C6F /* Demo6Uikit.m */; };
+=======
+		230E22E821D60A91002E0241 /* cxxtest1111view.m in Sources */ = {isa = PBXBuildFile; fileRef = 230E22E721D60A91002E0241 /* cxxtest1111view.m */; };
+>>>>>>> .merge_file_7zk7DW
 		F759878F1F7A9B8A00ECDDF4 /* Demo2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F759878E1F7A9B8A00ECDDF4 /* Demo2ViewController.m */; };
 		F75987921F7A9C5A00ECDDF4 /* Demo2shapeView.m in Sources */ = {isa = PBXBuildFile; fileRef = F75987911F7A9C5A00ECDDF4 /* Demo2shapeView.m */; };
 		F75987951F7AAB8D00ECDDF4 /* Demo3ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F75987941F7AAB8D00ECDDF4 /* Demo3ViewController.m */; };
@@ -59,6 +63,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+<<<<<<< .merge_file_fBvCct
 		230E22E321D606D4002E0241 /* remodView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = remodView.h; sourceTree = "<group>"; };
 		230E22E421D606D4002E0241 /* remodView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = remodView.m; sourceTree = "<group>"; };
 		F75803D21F7BEF0000187C6F /* Demo4Pie.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Demo4Pie.h; sourceTree = "<group>"; };
@@ -82,6 +87,10 @@
 		F75803EF1F7C041B00187C6F /* Demo6ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Demo6ViewController.m; sourceTree = "<group>"; };
 		F75803F11F7C043100187C6F /* Demo6Uikit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Demo6Uikit.h; sourceTree = "<group>"; };
 		F75803F21F7C043100187C6F /* Demo6Uikit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Demo6Uikit.m; sourceTree = "<group>"; };
+=======
+		230E22E621D60A91002E0241 /* cxxtest1111view.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = cxxtest1111view.h; sourceTree = "<group>"; };
+		230E22E721D60A91002E0241 /* cxxtest1111view.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = cxxtest1111view.m; sourceTree = "<group>"; };
+>>>>>>> .merge_file_7zk7DW
 		F759878D1F7A9B8A00ECDDF4 /* Demo2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Demo2ViewController.h; sourceTree = "<group>"; };
 		F759878E1F7A9B8A00ECDDF4 /* Demo2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Demo2ViewController.m; sourceTree = "<group>"; };
 		F75987901F7A9C5A00ECDDF4 /* Demo2shapeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Demo2shapeView.h; sourceTree = "<group>"; };
@@ -257,8 +266,13 @@
 				F7AF0F151F79511A00CC7EE9 /* LaunchScreen.storyboard */,
 				F7AF0F181F79511A00CC7EE9 /* Info.plist */,
 				F7AF0F071F79511A00CC7EE9 /* Supporting Files */,
+<<<<<<< .merge_file_fBvCct
 				230E22E321D606D4002E0241 /* remodView.h */,
 				230E22E421D606D4002E0241 /* remodView.m */,
+=======
+				230E22E621D60A91002E0241 /* cxxtest1111view.h */,
+				230E22E721D60A91002E0241 /* cxxtest1111view.m */,
+>>>>>>> .merge_file_7zk7DW
 			);
 			path = Quartz2D;
 			sourceTree = "<group>";
@@ -502,6 +516,7 @@
 				F75803EC1F7BFE1400187C6F /* Demo5columnView.m in Sources */,
 				F75803D71F7BEF0000187C6F /* Demo4ViewController.m in Sources */,
 				F75987951F7AAB8D00ECDDF4 /* Demo3ViewController.m in Sources */,
+				230E22E821D60A91002E0241 /* cxxtest1111view.m in Sources */,
 				F75987981F7AACFD00ECDDF4 /* Dmeo3backView.m in Sources */,
 				F75803F01F7C041B00187C6F /* Demo6ViewController.m in Sources */,
 				F75803E31F7BEFDB00187C6F /* NSString+Helper.m in Sources */,
