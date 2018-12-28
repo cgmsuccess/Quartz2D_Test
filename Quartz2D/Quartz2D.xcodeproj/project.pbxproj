@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		230E22E821D60A91002E0241 /* cxxtest1111view.m in Sources */ = {isa = PBXBuildFile; fileRef = 230E22E721D60A91002E0241 /* cxxtest1111view.m */; };
 		F759878F1F7A9B8A00ECDDF4 /* Demo2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F759878E1F7A9B8A00ECDDF4 /* Demo2ViewController.m */; };
 		F75987921F7A9C5A00ECDDF4 /* Demo2shapeView.m in Sources */ = {isa = PBXBuildFile; fileRef = F75987911F7A9C5A00ECDDF4 /* Demo2shapeView.m */; };
 		F75987951F7AAB8D00ECDDF4 /* Demo3ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F75987941F7AAB8D00ECDDF4 /* Demo3ViewController.m */; };
@@ -45,6 +46,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		230E22E621D60A91002E0241 /* cxxtest1111view.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = cxxtest1111view.h; sourceTree = "<group>"; };
+		230E22E721D60A91002E0241 /* cxxtest1111view.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = cxxtest1111view.m; sourceTree = "<group>"; };
 		F759878D1F7A9B8A00ECDDF4 /* Demo2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Demo2ViewController.h; sourceTree = "<group>"; };
 		F759878E1F7A9B8A00ECDDF4 /* Demo2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Demo2ViewController.m; sourceTree = "<group>"; };
 		F75987901F7A9C5A00ECDDF4 /* Demo2shapeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Demo2shapeView.h; sourceTree = "<group>"; };
@@ -139,6 +142,8 @@
 				F7AF0F151F79511A00CC7EE9 /* LaunchScreen.storyboard */,
 				F7AF0F181F79511A00CC7EE9 /* Info.plist */,
 				F7AF0F071F79511A00CC7EE9 /* Supporting Files */,
+				230E22E621D60A91002E0241 /* cxxtest1111view.h */,
+				230E22E721D60A91002E0241 /* cxxtest1111view.m */,
 			);
 			path = Quartz2D;
 			sourceTree = "<group>";
@@ -364,6 +369,7 @@
 				F7AF0F451F79588900CC7EE9 /* Demo1LineView.m in Sources */,
 				F7AF0F091F79511A00CC7EE9 /* main.m in Sources */,
 				F75987951F7AAB8D00ECDDF4 /* Demo3ViewController.m in Sources */,
+				230E22E821D60A91002E0241 /* cxxtest1111view.m in Sources */,
 				F75987981F7AACFD00ECDDF4 /* Dmeo3backView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
